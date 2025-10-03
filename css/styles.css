@@ -184,7 +184,11 @@ button:disabled {
     min-width: 120px;
     text-align: right;
 }
-
+.top-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .countdown-display.running {
     color: #d93025;
 }

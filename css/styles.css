@@ -166,9 +166,9 @@ button:disabled {
     gap: 10px;
 }
 
-.countdown-controls label {
+/*.countdown-controls label {
     font-size: 16px;
-}
+}*/
 
 .countdown-controls input {
     font-size: 16px;

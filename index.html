@@ -13,11 +13,13 @@
         <div onclick="this.style.display = 'none';" class="status" id="status">Loading data.csv...</div>
 
         <div class="results-section">
+            <div class="top-display">
             <div class="Fonte">
                 <div class="result-title">Fonte:&nbsp; </div>
                 <div class="result-title" id="resultA">-</div>
             </div>
-
+                 <div class="countdown-display" id="countdownDisplay">00:00</div>
+                 </div>
             <div class="result-box">
                 <div class="result-value" id="resultB">-</div>
             </div>
@@ -38,7 +40,7 @@
                     <input type="number" id="countdownTime" value="60" min="1" max="999">
                     <button class="stop-btn" id="stopBtn" onclick="stopCountdown()" disabled>Stop</button>
                 </div>
-                <div class="countdown-display" id="countdownDisplay">00:00</div>
+               
             </div>
         </div>
     </div>

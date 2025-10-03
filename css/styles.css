@@ -171,8 +171,6 @@ button:disabled {
 }
 
 .countdown-controls input {
-    width: 80px;
-    padding: 8px 12px;
     font-size: 16px;
 }
 
@@ -212,8 +210,8 @@ button:disabled {
 }
 
 .stop-btn {
-    padding: 8px 20px;
-    font-size: 16px;
+    padding: 12px 40px;
+    font-size: 18px;
     background: #d93025;
     border-color: #d93025;
 }
